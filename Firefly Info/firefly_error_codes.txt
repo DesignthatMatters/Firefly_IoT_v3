@@ -1,0 +1,13 @@
+Firefly error codes:
+
+E01 - Error initializing display.
+
+E02 - Error initializing internal temperature sensor.
+
+E03 - Error initializing EEPROM memory that stores hourmeter.
+
+E04 - Error accessing EEPROM memory that stores hourmeter.
+
+E05 - Data read from hourmeter was invalid.
+
+E99 - Unknown/unexpected error.

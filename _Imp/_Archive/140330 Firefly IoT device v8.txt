@@ -1,0 +1,146 @@
+button <- hardware.pin1; //assigns the variable button to pin1 on the electric imp
+
+arduino <- hardware.uart57; // Used to talk with Arduino
+c <-[0,1,2]; 
+info <-0; 
+button_presses <- 0;
+Press <- 0; 
+timeUsed <- "";
+totalTime <-"";
+
+lastButtonState <- 0;
+lastDebounceTime<- 0;
+debounceDelay <- 50;
+
+//senses when the button is pressed/released and 
+function buttonPress() 
+{
+  
+  local state = button.read(); 
+  // reset the debouncing timer
+  if (state == 1 && state!=lastButtonState)
+  {
+      //server.log("release");
+      if((button_presses%2)==1)
+      {
+        //agent.send("storeTime",hardware.millis()); //for later development
+      }
+      GatherData();
+      lastButtonState = state;
+  }
+  else{lastButtonState = state;/*server.log("press");  /* when the button is released*/ }
+}
+
+//Sets button as a Digital input and the function that is executed when the state changes
+button.configure(DIGITAL_IN_PULLDOWN, buttonPress);
+
+
+function GatherData() 
+{
+    local data="";
+    if((button_presses%2)==0)
+    {
+        Press = hardware.millis();
+        local d = date(time()-(4*60*60));
+        //data ="Temperture at beginning of treatment: "+(((c[0]*9)/5)+32)+" F\r\n\r\nAtmospheric Pressure at beginning of treatment: "+c[1]*5+" hPa\r\n\r\nThe Altitude at startup at beginning of treatment: "+c[2]+"m";
+        data = "firefly_id 1, sent_at "+d.year+"-"+(d.month+1)+"-"+d.day+"T"+d.hour+":"+d.min+":"+d.sec+".000Z, hour_meter 12,low_temp 15,high_temp "+c[0]+",min_voltage 12, max_voltage 23";
+    } 
+    else
+    {
+        local temp = hardware.millis(); 
+        differance(temp,Press);
+        local d = date(time()-(4*60*60));
+        //data ="A child was treated for  "+timeUsed+" using Firefly. \r\n\r\n"+ /*Firefly has been used for "+ totaltime + */"\r\n\r\nTemperture at end of treatment: "+(((c[0]*9)/5)+32)+" F\r\n\r\n Atmospheric Pressure at end of treatment: "+c[1]*5+" hPa\r\n\r\nThe Altitude at end of treatment: "+c[2]+"m";
+        data = "firefly_id 1, sent_at "+d.year+"-"+(d.month+1)+"-"+d.day+"T"+d.hour+":"+d.min+":"+d.sec+".000Z, hour_meter 12,low_temp 15,high_temp "+c[0]+",min_voltage 12, max_voltage 23";
+        Press=temp;
+        timeUsed="";
+    }
+    server.log(data);
+    SendEmail(data);
+    button_presses++;
+} 
+
+function differance(start,end)
+{
+    local temp =start-end;
+    if(60>(temp/(1000))&&(temp/(1000))>=1)
+    {
+        temp = ((temp/1000)+ 4);
+        timeUsed = temp+" Second(s)";
+    }
+    else if(60>(temp/(60000))&&(temp/(60000))>=1)
+    {
+        temp = temp/(1000);
+        timeUsed = temp/60 + " Minute(s) " + ((temp%60)+ 4)  + " Second(s)";
+    }
+    else if(24>(temp/(3600000))&&(temp/(3600000))>=1)
+    {
+        temp = temp/(1000);
+        timeUsed = time/3600 + " Hour(s) " + ((temp/60)%60) + " Minute(s) ";
+    }
+    //server.log(timeUsed);
+}
+
+// sends the email indicator to the agent to execute the SendEmail function
+function SendEmail(info) { agent.send("email",info); } 
+
+//The code below is used to keep the imp active and responsive until the button is pressed. 
+
+agent.on("usageTime", function(uTime)
+{
+    local  temp =uTime-Press;
+    //local temp=uTime;
+   if(60>(temp/(1000))&&(temp/(1000))>=1)
+    {
+        temp = ((temp/1000));
+        totalTime = temp+" Second(s)";
+    }
+    else if(60>(temp/(60000))&&(temp/(60000))>=1)
+    {
+        temp = temp/(1000);
+        totalTime = temp/60 + " Minute(s) " +((temp%60) + 4) + " Second(s)";
+    }
+    else if(24>(temp/(3600000))&&(temp/(3600000))>=1)
+    {
+        temp = temp/(1000);
+        totalTime = temp/3600 + " Hour(s) " + ((temp/60)%60) + " Minute(s) "+((temp%60) + 4) + " Second(s)"; 
+    }
+    //server.log(totalTime);
+});
+ 
+//Used to get information from the arduino and send it to the Imp
+function arduinoData() 
+{
+    local read =arduino.read();
+    //server.log("From serial:" + read+"    "+info);
+    // if sending over an odd array of bytes info!=x and if(info<x)
+    // if sending over an even array of bytes info!=x+1 and if(info<x)
+    // where x is the size of the array
+    if(read!=(-1)&&info!=3)
+    {
+        switch(info)
+        {
+          case 0:
+          {
+            if(12<read&&read<30)
+              { c[info]=read; info++; }
+            break;
+          }
+          case 1:
+          {
+            if(190<read&&read<250)
+              { c[info]=read; info++; }
+            break;
+          }
+          case 2:
+          {
+            c[info]=read; info++; 
+            break;
+          }
+          default:
+            { info++; break;}
+        }
+    } else{ info=0; }
+}
+
+arduino.configure(9600, 8, PARITY_NONE, 1, NO_CTSRTS, arduinoData);

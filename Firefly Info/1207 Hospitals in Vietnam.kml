@@ -1,0 +1,2484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Vietnam_Landmarks.kml</name>
+	<Style id="sn_hospitals">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_coffee1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_homegardenbusiness">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals30">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining15">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_lodging02">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_lodging20">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals7">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining04">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_bars">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals11">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hospitals5">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_bars">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals301">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_bars1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_woman">
+		<IconStyle>
+			<color>ffffaa00</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_coffee">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_star01">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals01">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining001">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hospitals3">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining31">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals4">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals6">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hospitals0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="waypoint_h0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining17">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_coffee0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals3">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining22">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_homegardenbusiness0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_lodging3">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining16">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_bars00">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_bars00">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_homegardenbusiness">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_homegardenbusiness0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_homegardenbusiness</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospitals5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospitals4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_dining101">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_lodging12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging02</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_dining18">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_dining16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_lodging20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging020</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hospitals20">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_coffee">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_coffee1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_coffee0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hospitals40">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_dining31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining51</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining170</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_coffee0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_coffee</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_coffee</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining170">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_hospitals0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_lodging00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="waypoint0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#waypoint_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#waypoint_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_dining150">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_bars0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bars0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bars0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_lodging01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_dining18">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_hospitals6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining04</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_coffee">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_bars2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bars</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bars2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_bars1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bars1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bars1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_lodging3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospitals40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_snack_bar">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_snack_bar</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_snack_bar</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hospitals01">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_hospitals12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospitals11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hospitals00">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_homegardenbusiness0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_homegardenbusiness</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_homegardenbusiness0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_star03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_star03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_star01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_hospitals8">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_star03">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining02">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_bars1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining19">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hospitals10">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_lodging020">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_lodging000">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_lodging31">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_coffee00">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_lodging010">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals12">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals2">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals9">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="waypoint_n0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_bars0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining41">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="waypoint_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_coffee0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/coffee.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining21">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hospitals60">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl4">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hospitals41">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining17">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hospitals02">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining170">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hospitals2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_lodging10">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_homegardenbusiness">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_dining19">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals00">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_snack_bar">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/snack_bar.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining40">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hospitals10">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hospitals11">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hospitals">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_bars0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_lodging2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_lodging30">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_hospitals7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_snack_bar">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/snack_bar.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="waypoint">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#waypoint_n0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#waypoint_h0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospitals9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospitals3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_woman">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_woman</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_woman</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_bars2">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_lodging4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hospitals7">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_hospitals2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospitals110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospitals20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="waypoint_h">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_hospitals">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_woman">
+		<IconStyle>
+			<color>ffffaa00</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/woman.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_hospitals0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining21</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining300">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining150</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining02</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospitals00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hospitals6">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_dining40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining41</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_homegardenbusiness0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_coffee1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_coffee0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_coffee00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_bars00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bars00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bars00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_hospitals300">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_hospitals1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_lodging20">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_hospitals8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals301</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospitals000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_bars">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bars2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bars</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hospitals8">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining21">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining010">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hospitals30">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_bars2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining51">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining31">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_lodging02">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>2010 EMW Staff Retreat</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>109.2302156233201</longitude>
+			<latitude>13.7631611305829</latitude>
+			<altitude>0</altitude>
+			<heading>0.4053027111910423</heading>
+			<tilt>0</tilt>
+			<range>2499.330570023665</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Point>
+			<coordinates>109.2310075989395,13.76734143901623,0</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Hanoi Region</name>
+		<open>1</open>
+		<Folder>
+			<name>2009-06 Field Study</name>
+			<visibility>0</visibility>
+			<description>Solo field study, first visit to Vietnam.  Toured St. Paul with Kirk, NHP with Luciano.  First meeting with John and Luciano, didn&apos;t meet MTTS.</description>
+			<Placemark>
+				<name>St Paul Hospital</name>
+				<visibility>0</visibility>
+				<description>First visited with Kirk on 10Jun09.</description>
+				<styleUrl>#msn_hospitals0</styleUrl>
+				<Point>
+					<coordinates>105.8355769432,21.0316079302,10.6214937396</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>National Hospital of Pediatrics</name>
+				<visibility>0</visibility>
+				<description>NHP was the second hospital visited with Kirk during the 2009-06 field study.  The first hospital to test Kirk&apos;s CPAP, and KSE/MTTS&apos;s original clinical partner.  UPDATE 110728: apparently Kirk is back working with NHP and Dr. Dong (pr: Zoon).  As a consequence, MTTS and EMW are shut out.</description>
+				<LookAt>
+					<longitude>105.8078394782248</longitude>
+					<latitude>21.02560364058421</latitude>
+					<altitude>0</altitude>
+					<heading>7.049434349768034e-005</heading>
+					<tilt>0</tilt>
+					<range>261.3452233575165</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_hospitals12</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>105.8074126100564,21.02532279637576,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>2009-10 FS phototherapy</name>
+			<visibility>0</visibility>
+			<description>Solo field study.  First meeting with MTTS team.  Hospital tours with Luciano, Greg and Trang (EMW translator).  First visit to Moc Chau.</description>
+			<Placemark>
+				<name>MTTS (old office)</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>105.8098093859164</longitude>
+					<latitude>21.03417375688141</latitude>
+					<altitude>0</altitude>
+					<heading>-5.029730295446255e-005</heading>
+					<tilt>0</tilt>
+					<range>112.7362485878486</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_homegardenbusiness</styleUrl>
+				<Point>
+					<coordinates>105.809675648576,21.03441579660851,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bac Ninh Provincial Hospital</name>
+				<visibility>0</visibility>
+				<description>2 OH PT and 1 Bilibed
+Floor scale for baby-weighing
+Patient record for Baby Anh (thought it was the current bilibed patient record; turns out that kid was named Nga (according to the nametag on his forehead—Baby Ahn was on the CPAP and warmer, no record of bilibed treatment, at least that we could read in the car to Mai Chau without barfing)
+Four brand new, unused incubators (“saving them until it gets cold”), two broken incubators from 2005</description>
+				<LookAt>
+					<longitude>106.0655526604947</longitude>
+					<latitude>21.16739881916897</latitude>
+					<altitude>0</altitude>
+					<heading>0.0005731068984670071</heading>
+					<tilt>0</tilt>
+					<range>827.8109255256846</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_hospitals11</styleUrl>
+				<Point>
+					<coordinates>106.0660295509773,21.16618692435291,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bac Giang
+Provincial Hospital</name>
+				<visibility>0</visibility>
+				<description>Smaller hospital with fewer resources
+No staff interviews because we were late
+1 OH PT and 1 bilibed
+Patient under OH PT was lying in a turned-off incubator; eye mask was covering nose and eyes—can newborns breathe well through their mouths?</description>
+				<LookAt>
+					<longitude>106.1977047605226</longitude>
+					<latitude>21.27452301150222</latitude>
+					<altitude>0</altitude>
+					<heading>2.045162198690851e-005</heading>
+					<tilt>0</tilt>
+					<range>374.1037314857528</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_hospitals40</styleUrl>
+				<Point>
+					<coordinates>106.1979044816071,21.27483487133657,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thai Nguyen Provincial Hospital</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>105.8627846939033</longitude>
+					<latitude>21.44663813763287</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0009721300022720535</heading>
+					<tilt>0</tilt>
+					<range>1198.661542110053</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_hospitals110</styleUrl>
+				<Point>
+					<coordinates>105.8615736790649,21.44737880843725,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dai Tu District Hospital</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>105.645096700194</longitude>
+					<latitude>21.62647046198937</latitude>
+					<altitude>0</altitude>
+					<heading>0.00113305944915095</heading>
+					<tilt>0</tilt>
+					<range>381.3352407493086</range>
+				</LookAt>
+				<styleUrl>#msn_hospitals8</styleUrl>
+				<Point>
+					<coordinates>105.645096700194,21.62647046198937,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Phu Binh Community Health Center</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>105.976912360725</longitude>
+					<latitude>21.46138976113691</latitude>
+					<altitude>0</altitude>
+					<heading>0.008591076954148295</heading>
+					<tilt>0</tilt>
+					<range>2158.783943397778</range>
+				</LookAt>
+				<styleUrl>#msn_hospitals4</styleUrl>
+				<Point>
+					<coordinates>105.976912360725,21.46138976113691,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mai Chau District Hospital</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>105.0802774464955</longitude>
+					<latitude>20.65511432823043</latitude>
+					<altitude>0</altitude>
+					<heading>47.08175794478535</heading>
+					<tilt>0</tilt>
+					<range>2282.427385063194</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_hospitals5</styleUrl>
+				<Point>
+					<coordinates>105.0793837231964,20.65557911734011,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Moc Chau District Hospital</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>104.6195340753706</longitude>
+					<latitude>20.84858684813524</latitude>
+					<altitude>0</altitude>
+					<heading>-0.05084764882800271</heading>
+					<tilt>0</tilt>
+					<range>95.71048672306802</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_hospitals000</styleUrl>
+				<Point>
+					<coordinates>104.6194498620706,20.84869244705423,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>2010-08 FS phototherapy</name>
+			<visibility>0</visibility>
+			<description>Field study with Firefly alpha prototype.  Team included Tim and Will, volunteer Caitrin, and Tim&apos;s friend Ben Spiess.</description>
+			<Placemark>
+				<name>Ha Nam Provincial Hospital</name>
+				<visibility>0</visibility>
+				<description>Aug10: small but tidy NICU, where Moms in yellow smocks were standing next to each baby cot.</description>
+				<styleUrl>#msn_hospitals6</styleUrl>
+				<Point>
+					<coordinates>105.917342,20.540621,8.056641000000003</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nam Dinh OB Hospital</name>
+				<visibility>0</visibility>
+				<description>Aug10: First stop on the 2010 field study with the Firefly alpha prototype.</description>
+				<styleUrl>#msn_hospitals1</styleUrl>
+				<Point>
+					<coordinates>106.169413,20.425831,2.288818000000001</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ninh Giang District Hospital</name>
+				<visibility>0</visibility>
+				<description>Aug10: No EMW BOL equipment, but a Yang Dong incubator and fluorescent overhead phototherapy unit.  We demonstrated &quot;in bed with Mom&quot; in the female ward.</description>
+				<styleUrl>#msn_hospitals7</styleUrl>
+				<Point>
+					<coordinates>106.395386,20.728737,-0.354736</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dai Tu District Hospital</name>
+				<visibility>0</visibility>
+				<description>Aug10: return visit during the Project Firefly alpha field study.  Great design review with the doctors and nursing staff.</description>
+				<styleUrl>#msn_hospitals9</styleUrl>
+				<Point>
+					<coordinates>105.644857,21.627056,51.55603000000001</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hai Duong Pediatric Hospital</name>
+				<visibility>0</visibility>
+				<description>pron &quot;Hai Zoong&quot;
+Aug10: First baby in a Firefly phototherapy device!</description>
+				<styleUrl>#msn_hospitals20</styleUrl>
+				<Point>
+					<coordinates>106.308443,20.936621,2.048584</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>2011-07 FS Phototherapy</name>
+			<visibility>0</visibility>
+			<description>Tim solo trip to Hanoi for the GE meeting.  Toured three hospitals with the GE delegation, took the opportunity to interview clinical staff about the Firefly UI.</description>
+			<Placemark>
+				<name>National Obstetric Hospital</name>
+				<visibility>0</visibility>
+				<description><![CDATA[<div id="desc-container" style="font-size: 11px; min-height: 240px; min-width: 500px"><div id="desc-summary" style="width: 50%; float:left;"><table border="0" style="width: 100%; margin: 8px 0"><tr><td style="font-weight: bold; width: 90px;">Date:</td><td>Jul 28, 2011  3:49 pm</td></tr><tr><td style="font-weight: bold; width: 90px;">Latitude:</td><td> 21.026217º N</td></tr><tr><td style="font-weight: bold; width: 90px;">Longitude:</td><td>105.847380º E</td></tr><tr><td style="font-weight: bold; width: 90px;">Altitude:</td><td>33 ft</td></tr></table></div><div id="desc-image" style="width: 50%; float: right"><span id="image-container"><img src="http://share.gps.motionxlive.com/shr/r/333b6c4e505656b61633ef8a716a63fc/image_share.jpg" width="100%"></img></span><p>Large, clean, modern, chaotic.  Where we conducted the second Firefly UI interview.  Jul 28, 2011  3:49 pm</p></div></div>]]></description>
+				<styleUrl>#msn_hospitals3</styleUrl>
+				<Point>
+					<coordinates>105.8473796508,21.0262174668,10.1249444436</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hanoi Obstetric Hospital</name>
+				<visibility>0</visibility>
+				<description><![CDATA[<div id="desc-container" style="font-size: 11px; min-height: 240px; min-width: 500px"><div id="desc-summary" style="width: 50%; float:left;"><table border="0" style="width: 100%; margin: 8px 0"><tr><td style="font-weight: bold; width: 90px;">Date:</td><td>Jul 28, 2011  4:17 pm</td></tr><tr><td style="font-weight: bold; width: 90px;">Latitude:</td><td> 21.026696º N</td></tr><tr><td style="font-weight: bold; width: 90px;">Longitude:</td><td>105.807461º E</td></tr><tr><td style="font-weight: bold; width: 90px;">Altitude:</td><td>35 ft</td></tr></table></div><div id="desc-image" style="width: 50%; float: right"><span id="image-container"><img src="http://share.gps.motionxlive.com/shr/r/333b6c4e505656b61633ef8a716aff10/image_share.jpg" width="100%"></img></span><p>Third hospital visited during Firefly UI testing.  Where we conducted the nurse interview.  Less chaotic than National Obstetric.  Jul 28, 2011  4:17 pm</p></div></div>]]></description>
+				<styleUrl>#msn_hospitals2</styleUrl>
+				<Point>
+					<coordinates>105.8074605922,21.0266963214,10.6097602844</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>St Paul Hospital</name>
+				<visibility>0</visibility>
+				<description><![CDATA[<div id="desc-container" style="font-size: 11px; min-height: 240px; min-width: 500px"><div id="desc-summary" style="width: 50%; float:left;"><table border="0" style="width: 100%; margin: 8px 0"><tr><td style="font-weight: bold; width: 90px;">Date:</td><td>Jul 28, 2011  1:23 pm</td></tr><tr><td style="font-weight: bold; width: 90px;">Latitude:</td><td> 21.031608º N</td></tr><tr><td style="font-weight: bold; width: 90px;">Longitude:</td><td>105.835577º E</td></tr><tr><td style="font-weight: bold; width: 90px;">Altitude:</td><td>35 ft</td></tr></table></div><div id="desc-image" style="width: 50%; float: right"><span id="image-container"><img src="http://share.gps.motionxlive.com/shr/r/333b6c4e505656b61633ef8a71696e8a/image_share.jpg" width="100%"></img></span><p>First visited with Kirk on 10Jun09.  First site for the 2011-07 Firefly UI interviews.  Most likely candidate for the Firefly one-month clinical trial.  Jul 28, 2011  1:23 pm</p></div></div>]]></description>
+				<styleUrl>#msn_hospitals00</styleUrl>
+				<Point>
+					<coordinates>105.8355769432,21.0316079302,10.6214937396</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>2011-12 FS Phototherapy</name>
+			<visibility>0</visibility>
+			<description>Team field study with the beta prototype.  Will arrived first, visited C Hospital (National Obstetrics) as well as an aluminum extrusion plant.  Elizabeth arrived second, more work at C Hospital.  Tim arrived last; team took the beta prototype on the road with translators Bac and Hoi.</description>
+			<Placemark>
+				<name>National Obstetric Hospital</name>
+				<visibility>0</visibility>
+				<description><![CDATA[<div id="desc-container" style="font-size: 11px; min-height: 240px; min-width: 500px"><div id="desc-summary" style="width: 50%; float:left;"><table border="0" style="width: 100%; margin: 8px 0"><tr><td style="font-weight: bold; width: 90px;">Date:</td><td>Jul 28, 2011  3:49 pm</td></tr><tr><td style="font-weight: bold; width: 90px;">Latitude:</td><td> 21.026217º N</td></tr><tr><td style="font-weight: bold; width: 90px;">Longitude:</td><td>105.847380º E</td></tr><tr><td style="font-weight: bold; width: 90px;">Altitude:</td><td>33 ft</td></tr></table></div><div id="desc-image" style="width: 50%; float: right"><span id="image-container"><img src="http://share.gps.motionxlive.com/shr/r/333b6c4e505656b61633ef8a716a63fc/image_share.jpg" width="100%"></img></span><p>Large, clean, modern, chaotic.  Where we conducted the second Firefly UI interview.  Jul 28, 2011  3:49 pm</p></div></div>]]></description>
+				<styleUrl>#msn_hospitals3</styleUrl>
+				<Point>
+					<coordinates>105.8473796508,21.0262174668,10.1249444436</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Moc Chau District Hospital</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<LookAt>
+					<longitude>104.6195340753706</longitude>
+					<latitude>20.84858684813524</latitude>
+					<altitude>0</altitude>
+					<heading>-0.05084764882800271</heading>
+					<tilt>0</tilt>
+					<range>95.71048672306802</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_hospitals000</styleUrl>
+				<Point>
+					<coordinates>104.6194498620706,20.84869244705423,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dai Tu District Hospital</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<LookAt>
+					<longitude>105.645096700194</longitude>
+					<latitude>21.62647046198937</latitude>
+					<altitude>0</altitude>
+					<heading>0.00113305944915095</heading>
+					<tilt>0</tilt>
+					<range>381.3352407493086</range>
+				</LookAt>
+				<styleUrl>#msn_hospitals8</styleUrl>
+				<Point>
+					<coordinates>105.645096700194,21.62647046198937,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Phu Binh Community Health Center</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<LookAt>
+					<longitude>105.976912360725</longitude>
+					<latitude>21.46138976113691</latitude>
+					<altitude>0</altitude>
+					<heading>0.008591076954148295</heading>
+					<tilt>0</tilt>
+					<range>2158.783943397778</range>
+				</LookAt>
+				<styleUrl>#msn_hospitals4</styleUrl>
+				<Point>
+					<coordinates>105.976912360725,21.46138976113691,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ninh Giang District Hospital</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>Aug10: No EMW BOL equipment, but a Yang Dong incubator and fluorescent overhead phototherapy unit.  We demonstrated &quot;in bed with Mom&quot; in the female ward.</description>
+				<styleUrl>#msn_hospitals7</styleUrl>
+				<Point>
+					<coordinates>106.395386,20.728737,-0.354736</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hai Duong Pediatric Hospital</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>pron &quot;Hai Zoong&quot;
+Aug10: First baby in a Firefly phototherapy device!</description>
+				<styleUrl>#msn_hospitals20</styleUrl>
+				<Point>
+					<coordinates>106.308443,20.936621,2.048584</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>2012-07 FS Phototherapy</name>
+			<open>1</open>
+			<description>Team field study (Tim, EWJ, WH), following up on Firefly beta extended pilot at Moc Chau and St. Paul (Hanoi).</description>
+			<Placemark>
+				<name>MTTS (new office)</name>
+				<description>#19; from July 2012 field study</description>
+				<LookAt>
+					<gx:TimeStamp><when>2011-12-09T10:36:44Z</when>
+</gx:TimeStamp>
+					<longitude>105.8221186226023</longitude>
+					<latitude>21.07470148296848</latitude>
+					<altitude>0</altitude>
+					<heading>-3.541506651591725e-006</heading>
+					<tilt>0</tilt>
+					<range>450.0972603315136</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_homegardenbusiness0</styleUrl>
+				<Point>
+					<coordinates>105.8215707823432,21.07493948803693,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>National Obstetric Hospital</name>
+				<open>1</open>
+				<description><![CDATA[<div id="desc-container" style="font-size: 11px; min-height: 240px; min-width: 500px"><div id="desc-summary" style="width: 50%; float:left;"><table border="0" style="width: 100%; margin: 8px 0"><tr><td style="font-weight: bold; width: 90px;">Date:</td><td>Jul 28, 2011  3:49 pm</td></tr><tr><td style="font-weight: bold; width: 90px;">Latitude:</td><td> 21.026217º N</td></tr><tr><td style="font-weight: bold; width: 90px;">Longitude:</td><td>105.847380º E</td></tr><tr><td style="font-weight: bold; width: 90px;">Altitude:</td><td>33 ft</td></tr></table></div><div id="desc-image" style="width: 50%; float: right"><span id="image-container"><img src="http://share.gps.motionxlive.com/shr/r/333b6c4e505656b61633ef8a716a63fc/image_share.jpg" width="100%"></img></span><p>Large, clean, modern, chaotic.  Where we conducted the second Firefly UI interview.  Jul 28, 2011  3:49 pm</p></div></div>]]></description>
+				<styleUrl>#msn_hospitals3</styleUrl>
+				<Point>
+					<coordinates>105.8473796508,21.0262174668,10.1249444436</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firefly Baby home</name>
+				<description>Jul 27, 2012  4:40 pm
+~~~
+Home of the family we followed home from St Paul Hospital on Fri Jul 27, 2012.</description>
+				<TimeStamp><when>2012-07-27T09:40:04Z</when>
+</TimeStamp>
+				<styleUrl>#msn_woman</styleUrl>
+				<Point>
+					<coordinates>105.812971,21.152465,3.859999999999999</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>St Paul Hospital</name>
+				<open>1</open>
+				<description>Pediatric Ward translates as &quot;Khoa So Sinh&quot;.  Entrance is off Nguyen Thai Hoc.  From July 2012 field study.</description>
+				<styleUrl>#msn_hospitals</styleUrl>
+				<Point>
+					<coordinates>105.8345017059857,21.03093269285415,10.6214937396</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Moc Chau District Hospital</name>
+				<open>1</open>
+				<LookAt>
+					<longitude>104.6195340753706</longitude>
+					<latitude>20.84858684813524</latitude>
+					<altitude>0</altitude>
+					<heading>-0.05084764882800271</heading>
+					<tilt>0</tilt>
+					<range>95.71048672306802</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_hospitals000</styleUrl>
+				<Point>
+					<coordinates>104.6194498620706,20.84869244705423,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Hanoi Attractions</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Nha Hang Ngon Restaurant</name>
+				<visibility>0</visibility>
+				<description>Jul 27, 2012 12:36 pm. Another restaurant under a tent.  Would probably be lovely at night, given the lights in the trees under the tent.
+~~~
+Lunch with Nhung.</description>
+				<TimeStamp><when>2012-07-27T05:36:59Z</when>
+</TimeStamp>
+				<styleUrl>#msn_dining21</styleUrl>
+				<Point>
+					<coordinates>105.856048,21.020022,10.56</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Joma Bakery</name>
+				<visibility>0</visibility>
+				<description><![CDATA[<div id="desc-container" style="font-size: 11px; min-height: 240px; min-width: 500px"><div id="desc-summary" style="width: 50%; float:left;"><table border="0" style="width: 100%; margin: 8px 0"><tr><td style="font-weight: bold; width: 90px;">Date:</td><td>Jul 30, 2011  8:55 am</td></tr><tr><td style="font-weight: bold; width: 90px;">Latitude:</td><td> 21.068889º N</td></tr><tr><td style="font-weight: bold; width: 90px;">Longitude:</td><td>105.824048º E</td></tr><tr><td style="font-weight: bold; width: 90px;">Altitude:</td><td>34 ft</td></tr></table></div><div id="desc-image" style="width: 50%; float: right"><span id="image-container"><img src="http://share.gps.motionxlive.com/shr/r/344d0f255b7cb70e50cb60b119ff6569/image_share.jpg" width="100%"></img></span><p>Two-story American-style coffee shop.  Good but expensive cappuccino.  Second-floor outdoor patio is great for business meetings in cooler weather.  This is where John, Luciano and I had our wrap meeting for the July 2011 trip.  .Jul 30, 2011  8:55 am</p></div></div>]]></description>
+				<styleUrl>#msn_coffee</styleUrl>
+				<Point>
+					<coordinates>105.8240483014,21.0688889682,10.5093921362</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tadioto Club</name>
+				<visibility>0</visibility>
+				<description>July 2011: Nguyen Qui Duc&apos;s private club and residence, established after his greedy landlord forced him to close the old Tadioto bar.  Entrance is down a narrow hallway next to a camera store.  Apparently OK to push your moped right down the hall in the small courtyard beyond.</description>
+				<LookAt>
+					<longitude>105.8529093942876</longitude>
+					<latitude>21.025306553535</latitude>
+					<altitude>0</altitude>
+					<heading>7.004326202968483</heading>
+					<tilt>1.100901256672058</tilt>
+					<range>85.03183282021634</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_bars</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>105.8527809500379,21.02543702370101,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Karaoke</name>
+				<visibility>0</visibility>
+				<description><![CDATA[<div id="desc-container" style="font-size: 11px; min-height: 240px; min-width: 500px"><div id="desc-summary" style="width: 50%; float:left;"><table border="0" style="width: 100%; margin: 8px 0"><tr><td style="font-weight: bold; width: 90px;">Date:</td><td>Jul 27, 2011 10:08 pm</td></tr><tr><td style="font-weight: bold; width: 90px;">Latitude:</td><td> 21.031956º N</td></tr><tr><td style="font-weight: bold; width: 90px;">Longitude:</td><td>105.826309º E</td></tr><tr><td style="font-weight: bold; width: 90px;">Altitude:</td><td>37 ft</td></tr></table></div><div id="desc-image" style="width: 50%; float: right"><p>Jul 27, 2011 10:08 pm</p></div></div>]]></description>
+				<styleUrl>#msn_bars0</styleUrl>
+				<Point>
+					<coordinates>105.8263089178,21.0319557963,11.2227593142</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zigzag Cafe</name>
+				<visibility>0</visibility>
+				<description>Second-floor terrace cafe near the old city.  Saw from the street in Aug10, looked promising, never tried.</description>
+				<styleUrl>#msn_coffee0</styleUrl>
+				<Point>
+					<coordinates>105.854509,21.025055,10.700195</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bao Son Hotel, Hanoi</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>105.8105824052572</longitude>
+					<latitude>21.02432690739518</latitude>
+					<altitude>0</altitude>
+					<heading>-2.246982368586938e-011</heading>
+					<tilt>0</tilt>
+					<range>386.9703641188183</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_lodging00</styleUrl>
+				<Point>
+					<coordinates>105.8105433908266,21.0244517662909,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sunny Hotel</name>
+				<visibility>0</visibility>
+				<description>Aug2010: Decent hotel that&apos;s walking distance from the MTTS office.  Wireless internet, decent buffet breakfast, clean rooms.</description>
+				<LookAt>
+					<longitude>105.8124877481226</longitude>
+					<latitude>21.02751930833277</latitude>
+					<altitude>0</altitude>
+					<heading>0.0006859307985924232</heading>
+					<tilt>0</tilt>
+					<range>424.6159928038313</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_lodging3</styleUrl>
+				<Point>
+					<coordinates>105.8127937170528,21.02784487663337,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Santa Hotel</name>
+				<visibility>0</visibility>
+				<description>Aug10: John Anner&apos;s preferred hotel in Hanoi, on a tree-lined street of bohemian cafes and art studios.  Just down the street is Tadioto, run by a Vietnamese-American Rennaissance man (architect, poet, musician) with good food.</description>
+				<styleUrl>#msn_lodging01</styleUrl>
+				<Point>
+					<coordinates>105.8500791215751,21.01679227613128,9.258301000000003</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Charming II Hotel</name>
+				<visibility>0</visibility>
+				<description><![CDATA[<div id="desc-container" style="font-size: 11px; min-height: 240px; min-width: 500px"><div id="desc-summary" style="width: 50%; float:left;"><table border="0" style="width: 100%; margin: 8px 0"><tr><td style="font-weight: bold; width: 90px;">Date:</td><td>Jul 26, 2011 10:10 pm</td></tr><tr><td style="font-weight: bold; width: 90px;">Latitude:</td><td> 21.035591º N</td></tr><tr><td style="font-weight: bold; width: 90px;">Longitude:</td><td>105.847296º E</td></tr><tr><td style="font-weight: bold; width: 90px;">Altitude:</td><td>37 ft</td></tr></table></div><div id="desc-image" style="width: 50%; float: right"><span id="image-container"><img src="http://share.gps.motionxlive.com/shr/r/c71c2c1ab91949f83ad8c6a277d3f563/image_share.jpg" width="100%"></img></span><p>Lodgings on Jul 2011 field study, GPS from Jul 26, 2011 10:10 pm</p></div></div>]]></description>
+				<styleUrl>#msn_lodging12</styleUrl>
+				<Point>
+					<coordinates>105.8472955227,21.0355905057,11.1769347715</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pho</name>
+				<visibility>0</visibility>
+				<description>Aug 2010: Pho^&apos; Co^? Cu^?  Decent, simple noodle shop.  Cost 17K dong, or US$1 for a bowl of rice noodles with beef (?) in broth with mint and green onions.  Convenient to the Sunny Hotel.</description>
+				<LookAt>
+					<longitude>105.8127937712457</longitude>
+					<latitude>21.0290045486615</latitude>
+					<altitude>0</altitude>
+					<heading>0.0007649923142641301</heading>
+					<tilt>0</tilt>
+					<range>106.4770611320546</range>
+				</LookAt>
+				<styleUrl>#msn_dining31</styleUrl>
+				<Point>
+					<coordinates>105.8127937712457,21.0290045486615,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hoa Sua School</name>
+				<visibility>0</visibility>
+				<description>Training school for disadvantaged youth.  Great French and Vietnamese food for a reasonable price (290k for two entrees and two drinks).</description>
+				<LookAt>
+					<longitude>105.8474018027472</longitude>
+					<latitude>21.0214555566316</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0001650057226645244</heading>
+					<tilt>0</tilt>
+					<range>105.4255221641059</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining40</styleUrl>
+				<Point>
+					<coordinates>105.8470493859696,21.02157998857691,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Indian Restaurant</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>105.8416208842396</longitude>
+					<latitude>21.04772726743435</latitude>
+					<altitude>0</altitude>
+					<heading>5.232966617411923e-011</heading>
+					<tilt>0</tilt>
+					<range>145.6001431776284</range>
+				</LookAt>
+				<styleUrl>#msn_dining200</styleUrl>
+				<Point>
+					<coordinates>105.8416208842396,21.04772726743435,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cafe des Arts</name>
+				<visibility>0</visibility>
+				<description>Aug10: decent French restaurant with some great booze (Kir Royale, grappa)</description>
+				<LookAt>
+					<longitude>105.8505604304688</longitude>
+					<latitude>21.03031808737027</latitude>
+					<altitude>0</altitude>
+					<heading>0.000907926908629432</heading>
+					<tilt>0</tilt>
+					<range>145.9956974387049</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining300</styleUrl>
+				<Point>
+					<coordinates>105.8504089478642,21.0306038287087,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>American Club</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>105.854192785585</longitude>
+					<latitude>21.02344522659148</latitude>
+					<altitude>0</altitude>
+					<heading>-5.346036969552788e-006</heading>
+					<tilt>0</tilt>
+					<range>218.6624048178475</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_snack_bar</styleUrl>
+				<Point>
+					<coordinates>105.8541075351443,21.02366332237915,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Highway 4</name>
+				<visibility>0</visibility>
+				<description>Theme restaurant with gekko-seahorse liquor.  Decent food, if you have John and Luciano doing the ordering.</description>
+				<LookAt>
+					<longitude>105.8074767844996</longitude>
+					<latitude>21.02934738638466</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005229681234763854</heading>
+					<tilt>0</tilt>
+					<range>301.5028362420125</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining210</styleUrl>
+				<Point>
+					<coordinates>105.8079808309275,21.02909395177036,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bia Hoi intersection</name>
+				<visibility>0</visibility>
+				<description><![CDATA[<div id="desc-container" style="font-size: 11px; min-height: 240px; min-width: 500px"><div id="desc-summary" style="width: 50%; float:left;"><table border="0" style="width: 100%; margin: 8px 0"><tr><td style="font-weight: bold; width: 90px;">Date:</td><td>Jul 26, 2011  9:40 pm</td></tr><tr><td style="font-weight: bold; width: 90px;">Latitude:</td><td> 21.034772º N</td></tr><tr><td style="font-weight: bold; width: 90px;">Longitude:</td><td>105.852094º E</td></tr><tr><td style="font-weight: bold; width: 90px;">Altitude:</td><td>28 ft</td></tr></table></div><div id="desc-image" style="width: 50%; float: right"><p>Many sidewalk beer stands, popular with tourists.  Jul 26, 2011  9:40 pm</p></div></div>]]></description>
+				<styleUrl>#msn_bars00</styleUrl>
+				<Point>
+					<coordinates>105.8520943399,21.0347715717,8.680537487400001</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tadioto Bar CLOSED</name>
+				<visibility>0</visibility>
+				<description><![CDATA["A memoirist, poet, scriptwriter, translator, former on-air personality for U.S. National Public Radio and the son of the highest South Vietnamese official ever imprisoned by the North, [owner Nguyen Qui] Duc now presides over Hanoi's Tadioto — a hip, brick-lined spot in a city fast becoming a place of cultural ferment." [TIME magazine, 27Jan11]<p><p>
+John brought us here during the Aug2010 field study.]]></description>
+				<LookAt>
+					<longitude>105.8505942683065</longitude>
+					<latitude>21.01219200063447</latitude>
+					<altitude>0</altitude>
+					<heading>-5.381813619383708e-006</heading>
+					<tilt>0</tilt>
+					<range>95.05704104514102</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_bars2</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>105.8505166500947,21.01210736060182,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pho Restaurant</name>
+				<visibility>0</visibility>
+				<description><![CDATA[<div id="desc-container" style="font-size: 11px; min-height: 240px; min-width: 500px"><div id="desc-summary" style="width: 50%; float:left;"><table border="0" style="width: 100%; margin: 8px 0"><tr><td style="font-weight: bold; width: 90px;">Date:</td><td>Jul 26, 2011  9:18 pm</td></tr><tr><td style="font-weight: bold; width: 90px;">Latitude:</td><td> 21.034200º N</td></tr><tr><td style="font-weight: bold; width: 90px;">Longitude:</td><td>105.854816º E</td></tr><tr><td style="font-weight: bold; width: 90px;">Altitude:</td><td>34 ft</td></tr></table></div><div id="desc-image" style="width: 50%; float: right"><span id="image-container"><img src="http://share.gps.motionxlive.com/shr/r/c71c2c1ab91949f83ad8c6a277d52dc8/image_share.jpg" width="100%"></img></span><p>Greg's local favorite.  Jul 26, 2011  9:18 pm</p></div></div>]]></description>
+				<styleUrl>#msn_dining03</styleUrl>
+				<Point>
+					<coordinates>105.8548156594,21.0342000171,10.3419178202</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hilton Hanoi Opera Hotel</name>
+				<visibility>0</visibility>
+				<description>GE&apos;s preferred meeting place and lodgings in Hanoi.  Possible to rent conference rooms.</description>
+				<LookAt>
+					<longitude>105.8581116086169</longitude>
+					<latitude>21.02300520200248</latitude>
+					<altitude>0</altitude>
+					<heading>1.088746683774035e-005</heading>
+					<tilt>0</tilt>
+					<range>145.8325373082189</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_lodging20</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>105.8580051551109,21.02295404235524,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sunshine Suites Hotel</name>
+				<visibility>0</visibility>
+				<description>Lodgings for Dec 2011 and July 2012.  Good enough, easy to find restaurants in walking distance.</description>
+				<LookAt>
+					<longitude>105.8534057828514</longitude>
+					<latitude>21.03497487822134</latitude>
+					<altitude>0</altitude>
+					<heading>0.00732714090401267</heading>
+					<tilt>0</tilt>
+					<range>312.2242457454792</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin3</styleUrl>
+				<Point>
+					<coordinates>105.8533673915649,21.03511685288996,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Highway 4 (original)</name>
+				<visibility>0</visibility>
+				<description>Catfish spring rolls are amazing.  Much more exotic food and drink on offer.  July 2012.</description>
+				<LookAt>
+					<longitude>105.8546496727213</longitude>
+					<latitude>21.0336647806623</latitude>
+					<altitude>0</altitude>
+					<heading>0.007768397033331745</heading>
+					<tilt>3.775478550359373</tilt>
+					<range>170.6479052265918</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining16</styleUrl>
+				<Point>
+					<coordinates>105.8549947169884,21.03351091551586,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tandoor Restaurant</name>
+				<visibility>0</visibility>
+				<description>Decent Indian food.  Dec 2011.
+~~~
+Tandoor Restaurant
+24 Hàng Bè, Lý Thái Tổ, Hoan Kiem District, Hanoi, Vietnam
++84 4 3824 5359 ‎</description>
+				<LookAt>
+					<longitude>105.8539673638309</longitude>
+					<latitude>21.03307368671295</latitude>
+					<altitude>0</altitude>
+					<heading>3.114558171823148e-012</heading>
+					<tilt>0</tilt>
+					<range>87.49955232963356</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining16</styleUrl>
+				<Point>
+					<coordinates>105.8538519291668,21.0331990536915,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Quan An Ngon Restaurant</name>
+				<visibility>0</visibility>
+				<description>Tented restuarant with various regional dishes, great ambiance.  Dec 2011.
+~~~
+Quan An Ngon
+18 Phan Boi Chau Str Phan Bội Châu, Hoan Kiem District, Hanoi, Vietnam
++84 4 3942 8162 ‎</description>
+				<LookAt>
+					<longitude>105.843623784333</longitude>
+					<latitude>21.0261255274249</latitude>
+					<altitude>0</altitude>
+					<heading>9.249125302539432e-005</heading>
+					<tilt>0</tilt>
+					<range>212.7614223633089</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining16</styleUrl>
+				<Point>
+					<coordinates>105.8434154240356,21.02634347031424,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>69 Bar</name>
+				<visibility>0</visibility>
+				<description>July 2012.  Right down the street from Sunshine Suites Hotel.  Top listing in Lonely Planet, therefore packed with European tourists.</description>
+				<LookAt>
+					<gx:TimeStamp><when>2011-12-09T10:36:44Z</when>
+</gx:TimeStamp>
+					<longitude>105.8532225872503</longitude>
+					<latitude>21.0343810459449</latitude>
+					<altitude>0</altitude>
+					<heading>0.1240590271328465</heading>
+					<tilt>0</tilt>
+					<range>249.3003549636009</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining17</styleUrl>
+				<Point>
+					<coordinates>105.8535250585483,21.03466673063712,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sunset Bar</name>
+				<visibility>0</visibility>
+				<description>Dec 2011: stopped here with John Anner for drinks at sunset.</description>
+				<LookAt>
+					<gx:TimeStamp><when>2012-07-27T05:36:59Z</when>
+</gx:TimeStamp>
+					<longitude>105.8318563345512</longitude>
+					<latitude>21.05755097238658</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0004074756266260289</heading>
+					<tilt>0</tilt>
+					<range>489.6268601898704</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_bars1</styleUrl>
+				<Point>
+					<coordinates>105.8307603026038,21.0572481619282,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bánh mì cay Hải Phòng</name>
+				<visibility>0</visibility>
+				<description><![CDATA[<table cellpadding="3" >
+<tr><td><img src="http://farm8.staticflickr.com/7051/6776892688_04ea830ab1.jpg" height=300></td>
+<td>
+Something to try to find on July 2012 field study.<BR>
+~~~<BR>
+"While the now world-renowned bánh mỳ is substantial enough as a meal on its own, a baguette spread with pâté (sometimes also butter and mayonnaise) and filled with various cold cuts (or grilled meat or fish cakes), cucumber, coriander and chilli, the sandwich on offer here is a baby version. Called Bánh mì cay Hải Phòng, this bread roll is far less elaborate and most certainly only a snack. Slender and about 20cm in length, the bread reminds me of the consistency of a dinner roll at a posh restaurant, definitely less airy than Hanoi's regular baguettes (seen in the top photograph above). Pâté is knifed into the central slit, followed by crunch, zing and heat in the form of fried shallots, coriander and chilli sauce respectively."<BR><BR>
+Bánh mì cay Hải Phòng<BR>
+Outside the Đồng Xuân Market from 3-ish till sold out<BR>
+5000 VND each (USD25c, AUD22c)<BR>
+from <a href="http://stickyrice.typepad.com/my_weblog/2012/03/the-25c-sandwich.html">stickyrice blog</a>.<BR></td></tr></table>]]></description>
+				<LookAt>
+					<gx:TimeSpan>
+						<begin>2011-12-09T10:36:44Z</begin>
+						<end>2012-07-27T09:40:04Z</end>
+					</gx:TimeSpan>
+					<longitude>105.849775488421</longitude>
+					<latitude>21.03770750155988</latitude>
+					<altitude>0</altitude>
+					<heading>-9.173377234827535e-005</heading>
+					<tilt>0</tilt>
+					<range>287.1276965445838</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining19</styleUrl>
+				<Point>
+					<coordinates>105.8489770788008,21.03784643216131,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mam Restaurant</name>
+				<visibility>0</visibility>
+				<description>July 2012.  Tim and Will had forgettable noodles.  Elizabeth liked the duck.  We watched as two enormous groups of French tourists shuttled upstairs.  Extremely expensive.</description>
+				<LookAt>
+					<gx:TimeSpan>
+						<begin>2011-12-09T10:36:44Z</begin>
+						<end>2012-07-27T09:40:04Z</end>
+					</gx:TimeSpan>
+					<longitude>105.8542813754877</longitude>
+					<latitude>21.03360398639148</latitude>
+					<altitude>0</altitude>
+					<heading>0.001525294403883909</heading>
+					<tilt>0</tilt>
+					<range>256.0188443730788</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining19</styleUrl>
+				<Point>
+					<coordinates>105.8546640295968,21.03371970944093,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Rural Landmarks</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Moc Chau lunch</name>
+				<visibility>0</visibility>
+				<description>Jul 26, 2012 12:06 pm
+~~~
+Visited twice for lunch.  Excellent tomato and tofu soup, which we spooned over our rice.</description>
+				<TimeStamp><when>2012-07-26T05:06:50Z</when>
+</TimeStamp>
+				<styleUrl>#msn_dining21</styleUrl>
+				<Point>
+					<coordinates>104.695751,20.816279,955.9399999999999</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Moc Chau dinner resto</name>
+				<visibility>0</visibility>
+				<description>Jul 26, 2012 11:41 am
+~~~
+had buffalo DIY BBQ/fry.  Also where we ran into the Moc Chau hospital delegation, many vodka toasts with the clinical staff.</description>
+				<TimeStamp><when>2012-07-26T04:41:17Z</when>
+</TimeStamp>
+				<styleUrl>#msn_dining21</styleUrl>
+				<Point>
+					<coordinates>104.604853,20.859625,811.91</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Moc Chau Hotel</name>
+				<visibility>0</visibility>
+				<description>Jul 26, 2012 11:50 am
+~~~
+Where we stayed during the July 2012 field study.  Decent place, clean rooms.  AC and wireless internet.</description>
+				<TimeStamp><when>2012-07-26T04:50:12Z</when>
+</TimeStamp>
+				<styleUrl>#msn_lodging4</styleUrl>
+				<Point>
+					<coordinates>104.596194,20.864195,810.66</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>An Lac Hotel &amp; rocks</name>
+				<visibility>0</visibility>
+				<description>Dec 9, 2011  5:36 pm</description>
+				<TimeStamp><when>2011-12-09T10:36:44Z</when>
+</TimeStamp>
+				<styleUrl>#waypoint</styleUrl>
+				<Point>
+					<coordinates>105.276403,20.622569,101.69</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dat Viet Restaurant</name>
+				<visibility>0</visibility>
+				<description>Wacky ceiling decorations, Vodka poster</description>
+				<styleUrl>#msn_dining170</styleUrl>
+				<Point>
+					<coordinates>106.314162,20.932977,-3.959595</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vihoang Hotel</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_dining18</styleUrl>
+				<Point>
+					<coordinates>106.180867,20.432762,-11.40979</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Toll2</name>
+				<visibility>0</visibility>
+				<styleUrl>#waypoint0</styleUrl>
+				<Point>
+					<coordinates>106.058931,20.458452,9.739014000000001</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Toll</name>
+				<visibility>0</visibility>
+				<styleUrl>#waypoint0</styleUrl>
+				<Point>
+					<coordinates>105.916497,20.665637,6.134033</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ha Nam Eiffel Tower</name>
+				<visibility>0</visibility>
+				<description>Radio tower designed to resemble the Parisian landmark</description>
+				<styleUrl>#msn_star03</styleUrl>
+				<Point>
+					<coordinates>105.916706,20.536137,7.816406000000001</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rural Beer Garden</name>
+				<visibility>0</visibility>
+				<description>Aug10: Charming-looking cafe on the road to Dai Tu, didn&apos;t get it&apos;s actual name.  Doesn&apos;t serve food, but probably a great place for coffee or beer.</description>
+				<styleUrl>#msn_coffee1</styleUrl>
+				<Point>
+					<coordinates>105.783313,21.630134,29.445923</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

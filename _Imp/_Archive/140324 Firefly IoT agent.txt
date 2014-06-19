@@ -1,0 +1,48 @@
+//waits for the device to send the email indicator
+device.on("email", function(message)
+{ SendEmail("Firefly update", "Hi, Firefly at DtM was turned on.\r\n\r\n" + message+"\r\n\r\nFirefly was turned on in Cambridge, Ma\r\n\r\nFrom Firefly  ");
+}); 
+
+function SendEmail(subject, message)
+{
+  local from = "Firefly@no-reply.com";
+  //To send a text message to some you will need to know their number and there cell phone carrier
+  //Here are a list of common carriers in the United State:
+  /*
+    Number@tmomail.net
+    Number@vtext.com
+    Number@txt.att.net
+    Number@messaging.sprintpcs.com
+  */
+  //For a larger list look at http://www.wikihow.com/Text-Message-Online
+  
+  local to = [your@emailhere.com, number@carrier.com];
+
+  local apikey = "key-4voghdu3w99zam299o-73t8bqbhesx22";
+  local domain = "sandbox70034.mailgun.org ";
+  
+  for(local i =0; to.len()>i;++i) // A loop to send an email to multiple addresses
+  {
+    local request = http.post("https://api:" + apikey + "@api.mailgun.net/v2/" + domain + "/messages", {"Content-Type": "application/x-www-form-urlencoded"}, "from=" + from + "&to=" + to[i] + "&subject=" + subject + "&text=" + message);
+    local response = request.sendsync();
+    server.log("Mailgun response: " + response.body);
+  }
+}
+
+/*
+device.on("storeTime", function(time)
+{
+    //server.save({});
+    
+    //get data
+    t <- server.load();
+    // make sure 'Time Used' is in the table
+    if (!("Time Used" in t)) { t["Time Used"] <- 0;  }
+    //server.log("time to add = "+time);
+    //server.log("time in table = "+t["Time Used"]);
+    t["Time Used"]=t["Time Used"]+time;
+    server.save(t);
+    //server.log("time in table after add = "+t["Time Used"]);
+    device.send("usageTime",t["Time Used"]);
+});
+*/

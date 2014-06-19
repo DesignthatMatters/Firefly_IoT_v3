@@ -1,0 +1,134 @@
+button <- hardware.pin1; //assigns the variable button to pin1 on the electric imp
+arduino <- hardware.uart57; // Used to talk with Arduino
+c <-[0,1,2]; 
+i <-0; 
+b <- 0;
+lastPress <- 0; 
+diff <- 0; 
+timestamp <- "";
+timeUsed <- "";
+
+
+//senses when the button is pressed/released and 
+function buttonPress() 
+{
+    local state = button.read(); 
+    if (state == 1) {
+        //server.log("release");
+        GatherData();
+    }
+    else{ /*server.log("press");  /* when the button is released*/ }
+}
+
+//Sets button as a Digital input and the function that is executed when the state changes
+button.configure(DIGITAL_IN_PULLDOWN, buttonPress); 
+
+function GatherData() 
+{
+    local data="";
+    if((b%2)==0)
+    {
+        lastPress = hardware.millis(); 
+        data ="Temperture at beginning of treatment: "+(((c[0]*9)/5)+32)+" F\r\n    Atmospheric Pressure at beginning of treatment: "+c[1]+" hPa \r\n      The Altitude at startup at beginning of treatment: "+c[2]+"m";
+    }
+    else
+    {
+        local temp = hardware.millis(); 
+        agent.send("storeTime",temp);
+        differance(temp,lastPress); //local diff =temp-lastPress;
+        data ="A child was treated for  "+timestamp+" using Firefly. \r\n    Firefly has been used for "+ timeUsed + ".\r\n    Temperture at end of treatment: "+(((c[0]*9)/5)+32)+" F\r\n    Atmospheric Pressure at end of treatment: "+c[1]+" hPa\r\n       The Altitude at end of treatment: "+c[2]+"m";
+        //data ="It has been "+ diff +" "+timestamp+" since the last time Firefly treated a child. \r\n    " +"Temperture at end of treatment: "+(((c[0]*9)/5)+32)+" F\r\n    Atmospheric Pressure at end of treatment: "+c[1]+" hPa\r\n       The Altitude at end of treatment: "+c[2]+"m";
+        lastPress=temp;
+        timestamp="";
+    }
+    server.log(data);
+    //SendEmail(data);
+    b++;
+} 
+function differance(start,end)
+{
+    local time =start-end;
+    if(60>(time/(1000))&&(time/(1000))>=1)
+    {
+        time = time/(1000);
+        timestamp = time+" Second(s)";
+    }
+    else if(60>(time/(60000))&&(time/(60000))>=1)
+    {
+        time = time/(10000);
+        timestamp = time/60 + " Minute(s) " + time%60 + " Second(s)";
+    }
+    else if(24>(time/(3600000))&&(time/(3600000))>=1)
+    {
+        time = time/(100000);
+        timestamp = time/36 + " Hour(s) " + time%36 + " Minute(s) "; //timestamp = "Hour"; // to add later seconds  + diff*1000%60 + " Second(s) "
+    }
+    //server.log(timestamp);
+}
+
+// sends the email indicator to the agent to execute the SendEmail function
+function SendEmail(info) { agent.send("email",info); } 
+
+//The code below is used to keep the imp active and responsive until the button is pressed. 
+
+// when we get a "pong" message from the agent
+agent.on("pong", function(startMillis)
+{
+    
+    local endMillis = hardware.millis();    // get the current time
+    local diff = endMillis - startMillis;   // calculate how long the round trip took
+    server.log("Round trip took: " + diff + "ms");
+    imp.wakeup(60.0, ping);                 // wakeup in 60 seconds and ping again
+}
+);
+
+// when we get a "pong" message from the agent
+agent.on("usageTime", function(uTime)
+{
+    local temp=uTime;
+   if(60>(temp/(1000))&&(temp/(1000))>=1)
+    {
+        temp = temp/(1000);
+        timeUsed = temp+" Second(s)";
+    }
+    else if(60>(temp/(60000))&&(temp/(60000))>=1)
+    {
+        temp = temp/(1000);
+        timeUsed = temp/60 + " Minute(s) " + temp%60 + " Second(s)";
+    }
+    else if(24>(temp/(3600000))&&(temp/(3600000))>=1)
+    {
+        temp = temp/(100000);
+        timeUsed = temp/36 + " Hour(s  ) " + temp%36 + " Minute(s) "; //timestamp = "Hour"; // to add later seconds  + diff*1000%60 + " Second(s)
+    }
+    server.log(timeUsed);
+});
+
+ 
+// send a ping message with the current millis counter
+function ping() { agent.send("ping", hardware.millis()); }
+ 
+// start the ping-pong
+ping();
+
+//Used to get information from the arduino and send it to the Imp
+function arduinoData() 
+{
+    local read =arduino.read();
+    // server.log("From serial:" + read+"    "+i);
+    // if sending over an odd array of bytes i!=x and if(i<x)
+    // if sending over an even array of bytes i!=x+1 and if(i<x)
+    // where x is the size of the array
+    if(read!=(-1)&&i!=3)
+    {
+        if(i<3)
+        {
+            c[i]=read;
+            //server.log(c[i]+"     i="+i);
+            i++;
+        }
+        else{i++;}
+    } else{ i=0; }
+}
+
+arduino.configure(9600, 8, PARITY_NONE, 1, NO_CTSRTS, arduinoData);

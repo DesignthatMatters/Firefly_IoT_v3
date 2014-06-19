@@ -1,0 +1,30 @@
+//waits for the device to send the email indicator
+device.on("email", function(message)
+{
+    SendEmail("Firefly update", "Hi, Firefly at DtM was turned on." + message);
+}); 
+
+function SendEmail(subject, message)
+{
+  local from = "Firefly@no-reply.com"; 		// This is who is sending the email about firefly
+  local to = ["Your@emailHere.com","your@email.here"] //This is who will receive the email from firefly
+
+  local apikey = "key-4voghdu3w99zam299o-73t8bqbhesx22"; 	//DtM Mailgun apikey
+  local domain = "sandbox70034.mailgun.org ";				//DtM Mailgun domain
+  
+  for(local i =0; to.len()>i;++i) // A loop to send an email to multiple addresses
+  {
+    local request = http.post("https://api:" + apikey + "@api.mailgun.net/v2/" + domain + "/messages", {"Content-Type": "application/x-www-form-urlencoded"}, "from=" + from + "&to=" + to[i] + "&subject=" + subject + "&text=" + message);
+    local response = request.sendsync();
+    server.log("Mailgun response: " + response.body);
+  }
+}
+
+//The code below is used to keep the imp active and responsive until the button is pressed. 
+
+// when we get a "ping" message from the device
+device.on("ping", function(startTime)
+{
+    // immediately send a reply
+    device.send("pong", startTime);
+}); 

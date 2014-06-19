@@ -1,0 +1,50 @@
+//waits for the device to send the email indicator
+device.on("email", function(message)
+{ SendEmail("Firefly update", "Hi, Firefly at DtM was turned on. \r\n    " + message+"\r\n Firefly was turned on in Salem, Ma \r\n\r\n   From Firefly  ");
+}); 
+
+function SendEmail(subject, message)
+{
+  local from = "Firefly@no-reply.com";
+  //To send a text message to some you will need to know their number and there cell phone carrier
+  //Here are a list of common carriers in the United State:
+  /*
+    Number@tmomail.net
+    Number@vtext.com
+    Number@txt.att.net
+    Number@messaging.sprintpcs.com
+  */
+  //For a large list look at http://www.wikihow.com/Text-Message-Online
+  
+  local to = ["Your@emailHere.com","your@email.here","000000@tmomail.net"]
+
+  local apikey = "key-4voghdu3w99zam299o-73t8bqbhesx22";
+  local domain = "sandbox70034.mailgun.org ";
+  
+  for(local i =0; to.len()>i;++i) // A loop to send an email to multiple addresses
+  {
+    local request = http.post("https://api:" + apikey + "@api.mailgun.net/v2/" + domain + "/messages", {"Content-Type": "application/x-www-form-urlencoded"}, "from=" + from + "&to=" + to[i] + "&subject=" + subject + "&text=" + message);
+    local response = request.sendsync();
+    server.log("Mailgun response: " + response.body);
+  }
+}
+
+//The code below is used to keep the imp active and responsive until the button is pressed. 
+
+// when we get a "ping" message from the device immediately send a reply
+device.on("ping", function(startTime){ device.send("pong", startTime);}); 
+
+device.on("storeTime", function(time)
+{
+    //get data
+    t <- server.load();
+    // make sure 'Time Used' is in the table
+    if (!("Time Used" in t)) { t["Time Used"] <- 0;  }
+    //server.log("time to add = "+time);
+    //server.log("time in table = "+t["Time Used"]);
+    t["Time Used"]=t["Time Used"]+time;
+    server.save(t);
+    //server.log("time in table after add = "+t["Time Used"]);
+    device.send("usageTime",t["Time Used"]);
+    
+});

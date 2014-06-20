@@ -1,0 +1,60 @@
+Firefly Api Documentation 
+Author: David Solomon 
+Version: 1.0
+Date: 4/7/2014
+
+Files:
+	Firefly.cpp
+	Firefly.h
+	keywords.txt
+
+Api
+	
+# Summary: Create a instance of Iot
+# Params:  pin: Sets the digital pin that the led is on
+	< Iot(int pin); >
+	
+# Summary: Create a instance of Iot
+	< Iot(); >
+
+# Summary: set the digital pin HIGH
+	< void on(); >
+
+# Summary: set the digital pin LOW
+    < void off(); >
+
+# Summary: Turns off the led after 90 seconds
+# params:  trigger: indicated when to start the countdown
+# return:  Returns the current state of the trigger. If the time limit was reached the trigger is set to false
+#			else the trigger is true
+	< bool auto_off(bool trigger); >
+
+# Summary: Turns off the led after x seconds
+# params:  trigger: indicated when to start the countdown
+#		   xTimer: how many seconds to keep the led on
+# return:  Returns the current state of the trigger. If the time limit was reached the trigger is set to false
+#			else the trigger is true
+	< bool auto_off(bool trigger, int xtimer); >
+
+# Summary: Prints the values coming from the sensor to the lcd
+# params:  title: a string that holds the title of the data that is coming over 
+#		   value: an interger that represents the data coming from the sensor 
+#		   unit:  a string that tells the user what units the data represents
+	< void lcd_display_data(String title, float value, String unit); >
+	
+# Summary: Prints the current state of the firefly
+# params:  state: indicated if the firefly is on (1) or off (0)
+# return:  Returns the current state of firefly. If firefly is on return a true else return false
+	< bool lcd_firefly_status(int state); >
+	
+# Summary: Prints to the lcd the stage at which the data is being delivered
+	< void lcd_data_status(); >
+
+# Summary: Prints the current error message 
+# params:  state: indicated if the firefly is could not find the sensor (0) or if there was a sensor error (1)
+	< void sensor_error(int state); >
+
+# Summary: Based on what button is pressed this function will return that value
+# Return: This function returns the value for the button. Select is (1), left is (), right is (), Down is (), Up is ()
+	< uint8_t read_button(); >
+	

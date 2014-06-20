@@ -1,0 +1,30 @@
+#############################################
+# Syntax Colouring Map For Firefly Iot Library
+#############################################
+
+#############################################
+# Datatypes (KEYWORD1)
+#############################################
+
+Iot	KEYWORD1
+Firefly	KEYWORD1	
+
+#############################################
+# Methods and Functions (KEYWORD2)
+#############################################
+
+off	KEYWORD2
+on	KEYWORD2
+auto_off	KEYWORD2
+lcd_display_data	KEYWORD2
+lcd_firefly_status	KEYWORD2
+lcd_data_status	KEYWORD2
+sensor_error	KEYWORD2
+read_button	KEYWORD2
+format_time_hr_min_sec KEYWORD2
+
+#############################################
+# Constants (LITERAL1)
+#############################################
+
+
